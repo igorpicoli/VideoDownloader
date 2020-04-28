@@ -21,6 +21,8 @@ def Download():
 
     print('> Download realizado com sucesso! < ')
 
+    os.system("pause")
+
 
 
 def Intro():
