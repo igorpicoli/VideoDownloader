@@ -3,8 +3,6 @@ from pytube import YouTube
 
 def Download():
     print('\n')
-    #YouTube('https://youtu.be/9bZkp7q19f0').streams.first().download()
-
     #link do video
 
     link = input('Insira a url do vídeo: ')
@@ -22,8 +20,6 @@ def Download():
     print('> Download realizado com sucesso! < ')
 
     os.system("pause")
-
-
 
 def Intro():
 
