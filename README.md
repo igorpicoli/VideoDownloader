@@ -10,6 +10,6 @@ Baixe qualquer vídeo em mp4!
 
 ### Requisitos
 
-- Python
+- Python 3
 - pytube
 [pip install pytube3]
