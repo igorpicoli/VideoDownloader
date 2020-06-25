@@ -8,9 +8,19 @@ def Download():
     link = input('Insira a url do vídeo: ')
     link = YouTube(link)
 
+    #format = input('Deseja baixar em mp3 ou mp4 [3 ou 4]')
+
     print('===================================================')
     print('\n\n\n\n\n')
+
     print(link.title)
+
+    #qualidade = input('Qual a qualidade desejada:')
+
+
+
+    #pausa de segurança, retirar na produção
+    os.system("pause")
 
     stream = link.streams.first()
 
